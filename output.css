@@ -3063,7 +3063,10 @@ select {
 .aspect-w-13,
 .aspect-w-14,
 .aspect-w-15,
-.aspect-w-16 {
+.aspect-w-16,
+.aspect-w-1\/1,
+.aspect-w-3\/2,
+.aspect-w-3\/4 {
   position: relative;
   padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
 }
@@ -3083,7 +3086,10 @@ select {
 .aspect-w-13 > *,
 .aspect-w-14 > *,
 .aspect-w-15 > *,
-.aspect-w-16 > * {
+.aspect-w-16 > *,
+.aspect-w-1\/1 > *,
+.aspect-w-3\/2 > *,
+.aspect-w-3\/4 > * {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -3172,6 +3178,18 @@ select {
   --tw-aspect-w: 16;
 }
 
+.aspect-w-1\/1 {
+  --tw-aspect-w: 1 / 1;
+}
+
+.aspect-w-3\/2 {
+  --tw-aspect-w: 3 / 2;
+}
+
+.aspect-w-3\/4 {
+  --tw-aspect-w: 3 / 4;
+}
+
 .aspect-h-1 {
   --tw-aspect-h: 1;
 }
@@ -3234,6 +3252,18 @@ select {
 
 .aspect-h-16 {
   --tw-aspect-h: 16;
+}
+
+.aspect-h-1\/1 {
+  --tw-aspect-h: 1 / 1;
+}
+
+.aspect-h-3\/2 {
+  --tw-aspect-h: 3 / 2;
+}
+
+.aspect-h-3\/4 {
+  --tw-aspect-h: 3 / 4;
 }
 
 .sr-only {
@@ -33884,7 +33914,10 @@ select {
 .sm\:aspect-w-13,
 .sm\:aspect-w-14,
 .sm\:aspect-w-15,
-.sm\:aspect-w-16 {
+.sm\:aspect-w-16,
+.sm\:aspect-w-1\/1,
+.sm\:aspect-w-3\/2,
+.sm\:aspect-w-3\/4 {
     position: relative;
     padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
   }
@@ -33904,7 +33937,10 @@ select {
 .sm\:aspect-w-13 > *,
 .sm\:aspect-w-14 > *,
 .sm\:aspect-w-15 > *,
-.sm\:aspect-w-16 > * {
+.sm\:aspect-w-16 > *,
+.sm\:aspect-w-1\/1 > *,
+.sm\:aspect-w-3\/2 > *,
+.sm\:aspect-w-3\/4 > * {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -33993,6 +34029,18 @@ select {
     --tw-aspect-w: 16;
   }
 
+  .sm\:aspect-w-1\/1 {
+    --tw-aspect-w: 1 / 1;
+  }
+
+  .sm\:aspect-w-3\/2 {
+    --tw-aspect-w: 3 / 2;
+  }
+
+  .sm\:aspect-w-3\/4 {
+    --tw-aspect-w: 3 / 4;
+  }
+
   .sm\:aspect-h-1 {
     --tw-aspect-h: 1;
   }
@@ -34055,6 +34103,18 @@ select {
 
   .sm\:aspect-h-16 {
     --tw-aspect-h: 16;
+  }
+
+  .sm\:aspect-h-1\/1 {
+    --tw-aspect-h: 1 / 1;
+  }
+
+  .sm\:aspect-h-3\/2 {
+    --tw-aspect-h: 3 / 2;
+  }
+
+  .sm\:aspect-h-3\/4 {
+    --tw-aspect-h: 3 / 4;
   }
 
   .sm\:sr-only {
@@ -64322,7 +64382,10 @@ select {
 .md\:aspect-w-13,
 .md\:aspect-w-14,
 .md\:aspect-w-15,
-.md\:aspect-w-16 {
+.md\:aspect-w-16,
+.md\:aspect-w-1\/1,
+.md\:aspect-w-3\/2,
+.md\:aspect-w-3\/4 {
     position: relative;
     padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
   }
@@ -64342,7 +64405,10 @@ select {
 .md\:aspect-w-13 > *,
 .md\:aspect-w-14 > *,
 .md\:aspect-w-15 > *,
-.md\:aspect-w-16 > * {
+.md\:aspect-w-16 > *,
+.md\:aspect-w-1\/1 > *,
+.md\:aspect-w-3\/2 > *,
+.md\:aspect-w-3\/4 > * {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -64431,6 +64497,18 @@ select {
     --tw-aspect-w: 16;
   }
 
+  .md\:aspect-w-1\/1 {
+    --tw-aspect-w: 1 / 1;
+  }
+
+  .md\:aspect-w-3\/2 {
+    --tw-aspect-w: 3 / 2;
+  }
+
+  .md\:aspect-w-3\/4 {
+    --tw-aspect-w: 3 / 4;
+  }
+
   .md\:aspect-h-1 {
     --tw-aspect-h: 1;
   }
@@ -64493,6 +64571,18 @@ select {
 
   .md\:aspect-h-16 {
     --tw-aspect-h: 16;
+  }
+
+  .md\:aspect-h-1\/1 {
+    --tw-aspect-h: 1 / 1;
+  }
+
+  .md\:aspect-h-3\/2 {
+    --tw-aspect-h: 3 / 2;
+  }
+
+  .md\:aspect-h-3\/4 {
+    --tw-aspect-h: 3 / 4;
   }
 
   .md\:sr-only {
@@ -94760,7 +94850,10 @@ select {
 .lg\:aspect-w-13,
 .lg\:aspect-w-14,
 .lg\:aspect-w-15,
-.lg\:aspect-w-16 {
+.lg\:aspect-w-16,
+.lg\:aspect-w-1\/1,
+.lg\:aspect-w-3\/2,
+.lg\:aspect-w-3\/4 {
     position: relative;
     padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
   }
@@ -94780,7 +94873,10 @@ select {
 .lg\:aspect-w-13 > *,
 .lg\:aspect-w-14 > *,
 .lg\:aspect-w-15 > *,
-.lg\:aspect-w-16 > * {
+.lg\:aspect-w-16 > *,
+.lg\:aspect-w-1\/1 > *,
+.lg\:aspect-w-3\/2 > *,
+.lg\:aspect-w-3\/4 > * {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -94869,6 +94965,18 @@ select {
     --tw-aspect-w: 16;
   }
 
+  .lg\:aspect-w-1\/1 {
+    --tw-aspect-w: 1 / 1;
+  }
+
+  .lg\:aspect-w-3\/2 {
+    --tw-aspect-w: 3 / 2;
+  }
+
+  .lg\:aspect-w-3\/4 {
+    --tw-aspect-w: 3 / 4;
+  }
+
   .lg\:aspect-h-1 {
     --tw-aspect-h: 1;
   }
@@ -94931,6 +95039,18 @@ select {
 
   .lg\:aspect-h-16 {
     --tw-aspect-h: 16;
+  }
+
+  .lg\:aspect-h-1\/1 {
+    --tw-aspect-h: 1 / 1;
+  }
+
+  .lg\:aspect-h-3\/2 {
+    --tw-aspect-h: 3 / 2;
+  }
+
+  .lg\:aspect-h-3\/4 {
+    --tw-aspect-h: 3 / 4;
   }
 
   .lg\:sr-only {
@@ -125198,7 +125318,10 @@ select {
 .xl\:aspect-w-13,
 .xl\:aspect-w-14,
 .xl\:aspect-w-15,
-.xl\:aspect-w-16 {
+.xl\:aspect-w-16,
+.xl\:aspect-w-1\/1,
+.xl\:aspect-w-3\/2,
+.xl\:aspect-w-3\/4 {
     position: relative;
     padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
   }
@@ -125218,7 +125341,10 @@ select {
 .xl\:aspect-w-13 > *,
 .xl\:aspect-w-14 > *,
 .xl\:aspect-w-15 > *,
-.xl\:aspect-w-16 > * {
+.xl\:aspect-w-16 > *,
+.xl\:aspect-w-1\/1 > *,
+.xl\:aspect-w-3\/2 > *,
+.xl\:aspect-w-3\/4 > * {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -125307,6 +125433,18 @@ select {
     --tw-aspect-w: 16;
   }
 
+  .xl\:aspect-w-1\/1 {
+    --tw-aspect-w: 1 / 1;
+  }
+
+  .xl\:aspect-w-3\/2 {
+    --tw-aspect-w: 3 / 2;
+  }
+
+  .xl\:aspect-w-3\/4 {
+    --tw-aspect-w: 3 / 4;
+  }
+
   .xl\:aspect-h-1 {
     --tw-aspect-h: 1;
   }
@@ -125369,6 +125507,18 @@ select {
 
   .xl\:aspect-h-16 {
     --tw-aspect-h: 16;
+  }
+
+  .xl\:aspect-h-1\/1 {
+    --tw-aspect-h: 1 / 1;
+  }
+
+  .xl\:aspect-h-3\/2 {
+    --tw-aspect-h: 3 / 2;
+  }
+
+  .xl\:aspect-h-3\/4 {
+    --tw-aspect-h: 3 / 4;
   }
 
   .xl\:sr-only {
@@ -155636,7 +155786,10 @@ select {
 .\32xl\:aspect-w-13,
 .\32xl\:aspect-w-14,
 .\32xl\:aspect-w-15,
-.\32xl\:aspect-w-16 {
+.\32xl\:aspect-w-16,
+.\32xl\:aspect-w-1\/1,
+.\32xl\:aspect-w-3\/2,
+.\32xl\:aspect-w-3\/4 {
     position: relative;
     padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
   }
@@ -155656,7 +155809,10 @@ select {
 .\32xl\:aspect-w-13 > *,
 .\32xl\:aspect-w-14 > *,
 .\32xl\:aspect-w-15 > *,
-.\32xl\:aspect-w-16 > * {
+.\32xl\:aspect-w-16 > *,
+.\32xl\:aspect-w-1\/1 > *,
+.\32xl\:aspect-w-3\/2 > *,
+.\32xl\:aspect-w-3\/4 > * {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -155745,6 +155901,18 @@ select {
     --tw-aspect-w: 16;
   }
 
+  .\32xl\:aspect-w-1\/1 {
+    --tw-aspect-w: 1 / 1;
+  }
+
+  .\32xl\:aspect-w-3\/2 {
+    --tw-aspect-w: 3 / 2;
+  }
+
+  .\32xl\:aspect-w-3\/4 {
+    --tw-aspect-w: 3 / 4;
+  }
+
   .\32xl\:aspect-h-1 {
     --tw-aspect-h: 1;
   }
@@ -155807,6 +155975,18 @@ select {
 
   .\32xl\:aspect-h-16 {
     --tw-aspect-h: 16;
+  }
+
+  .\32xl\:aspect-h-1\/1 {
+    --tw-aspect-h: 1 / 1;
+  }
+
+  .\32xl\:aspect-h-3\/2 {
+    --tw-aspect-h: 3 / 2;
+  }
+
+  .\32xl\:aspect-h-3\/4 {
+    --tw-aspect-h: 3 / 4;
   }
 
   .\32xl\:sr-only {
